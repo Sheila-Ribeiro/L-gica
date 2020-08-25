@@ -1,0 +1,100 @@
+algoritmo "Covid19"
+
+var
+
+p1 , p2 , p3 , p4 , p5 , p6 , p7 , p8, p9, p10 , p11, p12, p13, p14, p15 : real
+pa1 , pa2 , pa3 , pa4 , pa5 , pa6 , pa7 , pa8 , pa9 , pa10 , pa11 , pa12 , pa13 , pa14 , pa15 : real
+ resultado1 , resultado2 : real
+
+
+
+inicio
+escreval ("Digite o número de casos de cada país")
+escreva ("EUA: ")
+leia (p1)
+escreva ("Brail: ")
+leia (p2)
+escreva ("Índia: ")
+leia(p3)
+escreva ("Rússia: ")
+leia (p4)
+escreva ("África do Sul: ")
+leia (p5)
+escreva ("México: ")
+leia (p6)
+escreva ("Peru: ")
+leia (p7)
+escreva ("Colômbia: ")
+leia (p8)
+escreva ("Chile: ")
+leia (p9)
+escreva ("Espanha: ")
+leia (p10)
+escreva ("Irã: ")
+leia (p11)
+escreva ("Reino Unido: ")
+leia (p12)
+escreva ("Arábia Saudita: ")
+leia (p13)
+escreva ("Paquistão: ")
+leia (p14)
+escreva ("Bangladesh: ")
+leia (p15)
+escreval ("Digite o número de óbitos de cada país")
+escreva ("EUA: ")
+leia (pa1)
+escreva ("Brail: ")
+leia (pa2)
+escreva ("Índia: ")
+leia(pa3)
+escreva ("Rússia: ")
+leia (pa4)
+escreva ("África do Sul: ")
+leia (pa5)
+escreva ("México: ")
+leia (pa6)
+escreva ("Peru: ")
+leia (pa7)
+escreva ("Colômbia: ")
+leia (pa8)
+escreva ("Chile: ")
+leia (pa9)
+escreva ("Espanha: ")
+leia (pa10)
+escreva ("Irã: ")
+leia (pa11)
+escreva ("Reino Unido: ")
+leia (pa12)
+escreva ("Arábia Saudita: ")
+leia (pa13)
+escreva ("Paquistão: ")
+leia (pa14)
+escreva ("Bangladesh: ")
+leia (pa15)
+
+escreval ("CASOS     MORTES")
+      escreval (" ", p1, "     !     ", pa1)
+      escreval (" ", p2, "     !     ", pa2)
+      escreval (" ", p3, "     !     ", pa3)
+      escreval (" ", p4, "     !     ", pa4)
+      escreval (" ", p5, "     !     ", pa5)
+      escreval (" ", p6, "     !     ", pa6)
+      escreval (" ", p7, "     !     ", pa7)
+      escreval (" ", p8, "     !     ", pa8)
+      escreval (" ", p9, "     !     ", pa9)
+      escreval (" ", p10, "    !      ", pa10)
+      escreval (" ", p11, "    !      ", pa11)
+      escreval (" ", p12, "    !      ", pa12)
+      escreval (" ", p13, "    !      ", pa13)
+      escreval (" ", p14, "    !      ", pa14)
+      escreval (" ", p15, "    !      ", pa15)
+
+
+resultado1 <- (p1 + p2 + p3 + p4 + p5 + p6 + p7 + p8 + p9 + p10 + p11 + p12 + p13 + p14 + p15 / 15)
+resultado2 <- (pa1 + pa2 + pa3 + pa4 + pa5 + pa6 + pa7 + pa8 + pa9 + pa10 + pa11 + pa12 + pa13 + pa14 + pa15 / 15)
+
+
+     escreva ("A média de casos é de " , resultado1 , " e a média de óbitos de " , resultado2)
+
+
+fimalgoritmo
